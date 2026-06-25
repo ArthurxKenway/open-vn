@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+
+  --color-main: #FEEEFF;
+  --color-main-font: #000000;
 
 
-/* OPEN-VN THEME VARIABLES */
-:root {
-  --main-color: #FEEEFF;
-  --main-font: #000000;
-  --heading-font: "Dela Gothic One", sans-serif;
-  --text-font: "Inter", sans-serif;
+  --font-heading: "Dela Gothic One", sans-serif;
+  --font-text: "Inter", sans-serif;
 }
 
 
 body {
-  background-color: var(--main-color);
-  font-family: var(--heading-font);
+  background-color: var(--color-main);
+  font-family: var(--font-heading);
 }
